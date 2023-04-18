@@ -51,6 +51,11 @@ h3 {
   letter-spacing: 0.7px;
 }
 
+h3:hover {
+  color: var(--text-color2);
+  cursor: pointer;
+}
+
 .nft-p1 {
   color: var(--text-color3);
   font-size: 18px;
@@ -111,6 +116,11 @@ hr {
 
 .avatar-span2 {
   color: var(--text-color1);
+}
+
+.avatar-span2:hover {
+  color: var(--text-color2);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
